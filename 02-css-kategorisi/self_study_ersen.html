@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="externalCss.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet">
+
+    <style>
+        p {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1 style="color:rgb(19, 226, 19);font-size:34px;;" >Inline CSS</h1> <!--etiket içinde = inline css-->
+    <p>internal css</p> <!--head içinde, style etiketi ile = internal css-->
+    <p>external yapıldıktan sonra</p>
+    <hr>
+    <hr>
+
+    <article> 
+        <h1 class="yazı-ebatı text-red"  >Loremmmm.</h1>  <!--aralarına boşluk bırakarak iki class verebiliriz-->
+        <h2>Lorem, ipsum.</h2>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Nemo, minima dolorum.</p>
+        <p>Facilis, similique dolor?</p>
+    </article>   
+  
+    <article 1 class="yazı-sekli">            <!--buradaki class özelliği aşağıya kadar miras kalır-->
+        <h1>Loremmmmmmmmmmmmmmmmmm.</h1>
+        <h2>Lorem, ipsum.</h2>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Nemo, minima dolorum.</p>
+        <p>Facilis, similique dolor?</p>
+    </article 1>   
+   
+    <article id="last-article" >                <!--buradaki id özelliği aşağıya kadar miras kalır-->
+        <h1>Loremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</h1>
+        <h2>Lorem, ipsum.</h2>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Nemo, minima dolorum.</p>
+        <p>Facilis, similique dolor?</p>
+    </article>   
+
+    <!--direk class ya da id oluşturmak istersek ( ör h1 için)-->
+    h1.fs-30.text-red
+    <h1 class="fs-30 text-red"></h1>
+
+    <!-- ya da-->
+    article.fs-30>h3.text-red
+    <article class="fs-30">
+        <h3 class="text-red"></h3>
+    </article>
+
+    
+</body>
+</html>

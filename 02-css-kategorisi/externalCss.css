@@ -1,0 +1,48 @@
+p {                                               /* yotum satırını bu şekilde yaparız (ctrl ö ile de olur */
+    background-color: rgb(218, 76, 20);
+    font-style: italic;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Moo Lah Lah', cursive;
+}
+body {
+    background-color: yellow;
+}
+
+/*CSS'de beş genel yazı tipi ailesi vardır:
+
+Serif yazı tiplerinin her harfin kenarlarında küçük bir kontur vardır. Bir formalite ve zarafet duygusu yaratırlar.
+Sans-serif yazı tiplerinin temiz satırları vardır (küçük konturlar eklenmez). Modern ve minimalist bir görünüm yaratırlar.
+Monospace yazı tipleri burada tüm harfler aynı sabit genişliğe sahiptir. Mekanik bir görünüm yaratırlar.
+Cursive yazı insan el yazısı taklidi gibidir.
+Fantasy yazı tipleri dekoratif, eğlenceli yazı tipleridir.*/
+
+
+/* class için . */
+/* id için #   unique dir */
+
+#last-article {
+    background-color: chartreuse;
+}
+
+.text-red {
+    color: red;
+}
+
+.yazı-ebatı {
+    font-size: 25px;
+}
+
+.fs-30 {
+
+    font-size: 30px;
+}
+
+.yazı-sekli {
+    font-family: fantasy;
+}
+
+/* Bütün başlıkları etkileyelim mesela*/
+h1, h2, h3, h4, h5, h6 {
+    color: grey;
+}
