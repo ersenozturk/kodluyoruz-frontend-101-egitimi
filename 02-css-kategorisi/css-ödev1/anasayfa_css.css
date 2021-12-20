@@ -1,0 +1,12 @@
+body {
+    background-color: #67C6C5;
+}
+
+p {
+    font-size: 25px;
+}
+
+span {
+    background-color: darkgreen;
+    font-style: italic;
+}
