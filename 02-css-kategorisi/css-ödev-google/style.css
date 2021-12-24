@@ -1,0 +1,18 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+}
+/*
+.header {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 37%;
+}
+*/
+
+img{
+    width: 351px;
+    aspect-ratio: auto 351 / 113;
+    height: 113px;
+}
+
