@@ -25,7 +25,7 @@ let number1 = "11"
 number1 = parseInt(number1)
 console.log("number1: ", number1, typeof(number1) )
 
-let number2 = "11px"
+let number2 = "11pxara"
 number2 = parseInt(number2)
 console.log("number2: ", number2, typeof(number2) )
 
@@ -41,3 +41,8 @@ console.log("number4: ", number4, typeof(number4) )
 let number5 = 55
 number5 = number5.toString()
 console.log(number5, typeof(number5))
+
+console.log(12/"12")
+let array = [1,2,3];
+console.log(array>null)
+console.log("araba"+35)

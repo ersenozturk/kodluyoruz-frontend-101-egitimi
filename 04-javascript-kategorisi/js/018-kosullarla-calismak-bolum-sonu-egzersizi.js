@@ -31,6 +31,7 @@ const FROWN = `
   <path d="M7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
 </svg>
 `
+/*
 
 let examGrade = prompt("Puani Girin")
 let textInfo;
@@ -66,4 +67,29 @@ if (examGrade >= 0 && examGrade <= 100) {
 }
 
 
-info.innerHTML = `${textInfo} -> ${examGrade}`
+info.innerHTML = `${textInfo} ---> ${examGrade}`
+
+*/
+
+let sinavNotu = prompt("not ort gir:")
+let notDegeri = SMILE
+let info = document.querySelector("#info")
+
+if (sinavNotu<=100 && sinavNotu>=0){
+    info.classList.add("text-primary")
+    if(sinavNotu>=90){
+        notDegeri += " AA"
+    }else if(sinavNotu>=50){
+        notDegeri += " BA"
+    }else if(sinavNotu>=10){
+        notDegeri += " CC"
+    }else{
+        info.classList.remove("text-primary")
+        info.classList.add("text-danger")
+        notDegeri = `${FROWN}`
+    }
+}else{
+    notDegeri = "Geçerli bir not giriniz..."
+}
+
+info.innerHTML = `${notDegeri} ---> ${sinavNotu}`

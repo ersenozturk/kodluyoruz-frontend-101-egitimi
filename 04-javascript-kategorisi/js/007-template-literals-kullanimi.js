@@ -19,4 +19,18 @@ gunun saat bilgisi : ${new Date().getHours()}
 kisa isminiz: ${username[0]}.
 `
 
-console.log(info)
+let ders = "Fizik"
+const konu = "aynalar"
+
+let içerik = ders + " dersimizin bu haftaki konusu " + konu +" dır"
+console.log(içerik)
+
+let olay = `
+en zorlandoğım ders ${ders},
+en sıkıcı konu ${konu}
+${ders} toplam uzunluğu ${ders.length} dir
+${new Date().getMinutes()}
+`
+console.log(olay)
+let eskiString = "En sevdiğim yemekler:\n\tİskender\nMantı"
+console.log(eskiString)
